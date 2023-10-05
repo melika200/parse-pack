@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: yekan;
+  src: url(./font/Yekan.ttf);
+}
+.body {
+  font-family: yekan;
+}
+/* navbar */
+.navbar-container {
+  @apply flex flex-row justify-between w-3/4 m-auto py-8 ;
+}
+.right {
+  @apply flex flex-row;
+}
+.product {
+  @apply flex flex-row;
+  align-items: center;
+}
+.item-product {
+  @apply md:mx-3 text-stone-400;
+}
+.item-product:hover {
+  @apply text-sky-500;
+  font-size: 20px;
+}
+.logo {
+  width: 130px;
+  height: 50px;
+  margin-left: 3px;
+}
+.left {
+  @apply flex flex-row;
+  align-items: center;
+}
+.sign {
+  @apply text-blue-500 font-bold;
+}
+.sign:hover {
+  @apply text-neutral-600;
+}
+.enter {
+  @apply bg-blue-500 text-white rounded-full mx-3 px-2 py-1;
+}
+.enter:hover {
+  @apply bg-neutral-600;
+}
+/* end navbar */
+/* buuuuuuy */
+.buy-container {
+  @apply flex flex-row w-3/4 m-auto py-20 ;
+}
+.text-buy {
+  @apply flex flex-col w-[40%] m-auto ;
+}
+.img-buy {
+  @apply w-[60%] m-auto ;
+  margin-bottom: 50px;
+}
+.text1 {
+  @apply md:text-sky-600 font-bold my-2 sm:text-sky-600;
+  font-size: 40px;
+}
+.text2 {
+  @apply md:text-sky-600 font-bold my-2 sm:text-sky-500;
+  font-size: 16px;
+}
+.paragragh {
+  @apply md:text-neutral-600;
+  font-size: 17px;
+  line-height: 25px;
+}
+/* end of buuuuy */
+/* prices */
+.price-container {
+  @apply md:flex flex-col w-3/4 m-auto  pb-32 ;
+}
+.price-tittle {
+  @apply md:flex text-neutral-500 mt-20 mb-5 font-bold;
+  font-size: 33px;
+  justify-content: center;
+}
+.price-border {
+  border-bottom: 2px solid #38bdf8;
+  width: 55%;
+  margin: auto;
+}
+.price-colction{
+    @apply md:flex flex-row;
+}
+.price-body {
+  @apply md:flex flex-row w-1/4 m-auto;
+}
+.price-bb {
+  @apply md:flex flex-col mx-3;
+}
+.tb1 {
+  @apply md:font-bold text-white rounded-full p-3  justify-center mt-5 ;
+  background-color: #0ea5e9;
+  z-index: 1;
+  margin-right:50px;
+  width: 60%;
+  font-size: 22px;
+  text-align: center;
+  /* margin-left: 50px; */
+}
+.tb2 {
+  @apply md:text-sky-500 p-5 rounded-xl;
+  font-size: 18px;
+  margin-top:-20px;
+  border: 1px solid #a3a3a3;
+}
+/* end of prices */
+/* abr */
+.abr-container{
+    @apply flex flex-row w-3/4 m-auto;
+}
+.abr-img{
+    @apply w-[70%] m-auto;
+    /* margin-left: 26px; */
+}
+.abr-text{
+    @apply w-[30%] m-auto ;
+}
+.abr-header{
+    @apply text-sky-500 font-bold;
+    font-size: 35px;
+}
+/* end abr */
+/* server */
+.server-img{
+    @apply w-[60%] m-auto;
+
+}
+.server-text{
+    @apply w-[40%] m-auto ;
+}
+/* end server */
+/* daman */
+.daman-img{
+    @apply w-[70%] m-auto;
+    margin-left: -30px;
+}
+.daman-text{
+    @apply w-[30%] m-auto pb-32 ;
+    /* margin-bottom: 0px; */
+    /* margin-left: 30px; */
+}
+.daman-header{
+    @apply text-sky-600 font-bold;
+    font-size: 35px;
+}
+.d-text{
+    @apply text-sky-500 font-bold;
+    font-size: 20px;
+}
+/* end daman */
+.end-border{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #737373;
+    padding-bottom:20px;
+}
+/* icon */
+.icon-container{
+    @apply flex flex-col w-3/4 m-auto py-16;
+    align-items: center;
+    
+}
+.icon{
+color: #737373;
+@apply flex-grow flex-row font-bold 
+}
+.icon-item{
+    @apply mx-3
+}
+.icon-item:hover{
+    border-top: 1px solid #737373;
+    color: #0ea5e9;
+}
+/* end icon */
+/* mobile */
+
+/* end mobile */
